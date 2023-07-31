@@ -91,6 +91,12 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
+        {
+          imageUrl: "https://dummyimage.com/601x361",
+          subtitle: "Element 2 Subtitle",
+          name: "Element 2 Name",
+          description: "Element 2 Description",
+        },
         // Add more elements as needed...
       ],
     },
@@ -103,6 +109,12 @@ const optionData = [
           subtitle: "Element 1 Subtitle",
           name: "Element 1 Name",
           description: "Element 1 Description",
+        },
+        {
+          imageUrl: "https://dummyimage.com/601x361",
+          subtitle: "Element 2 Subtitle",
+          name: "Element 2 Name",
+          description: "Element 2 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
@@ -129,6 +141,12 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
+        {
+          imageUrl: "https://dummyimage.com/601x361",
+          subtitle: "Element 2 Subtitle",
+          name: "Element 2 Name",
+          description: "Element 2 Description",
+        },
         // Add more elements as needed...
       ],
     },{
@@ -140,6 +158,12 @@ const optionData = [
           subtitle: "Element 1 Subtitle",
           name: "Element 1 Name",
           description: "Element 1 Description",
+        },
+        {
+          imageUrl: "https://dummyimage.com/601x361",
+          subtitle: "Element 2 Subtitle",
+          name: "Element 2 Name",
+          description: "Element 2 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
@@ -165,6 +189,12 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
+        {
+          imageUrl: "https://dummyimage.com/601x361",
+          subtitle: "Element 2 Subtitle",
+          name: "Element 2 Name",
+          description: "Element 2 Description",
+        },
         // Add more elements as needed...
       ],
     },{
@@ -176,6 +206,12 @@ const optionData = [
           subtitle: "Element 1 Subtitle",
           name: "Element 1 Name",
           description: "Element 1 Description",
+        },
+        {
+          imageUrl: "https://dummyimage.com/601x361",
+          subtitle: "Element 2 Subtitle",
+          name: "Element 2 Name",
+          description: "Element 2 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
