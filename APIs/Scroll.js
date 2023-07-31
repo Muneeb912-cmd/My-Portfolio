@@ -93,9 +93,9 @@ const optionData = [
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
-          subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
-          description: "Element 2 Description",
+          subtitle: "Element 3 Subtitle",
+          name: "Element 3 Name",
+          description: "Element 3 Description",
         },
         // Add more elements as needed...
       ],
@@ -116,11 +116,11 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
-        {
+         {
           imageUrl: "https://dummyimage.com/601x361",
-          subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
-          description: "Element 2 Description",
+          subtitle: "Element 3 Subtitle",
+          name: "Element 3 Name",
+          description: "Element 3 Description",
         },
         // Add more elements as needed...
       ],
@@ -141,11 +141,11 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
-        {
+         {
           imageUrl: "https://dummyimage.com/601x361",
-          subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
-          description: "Element 2 Description",
+          subtitle: "Element 3 Subtitle",
+          name: "Element 3 Name",
+          description: "Element 3 Description",
         },
         // Add more elements as needed...
       ],
@@ -165,11 +165,11 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
-        {
+         {
           imageUrl: "https://dummyimage.com/601x361",
-          subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
-          description: "Element 2 Description",
+          subtitle: "Element 3 Subtitle",
+          name: "Element 3 Name",
+          description: "Element 3 Description",
         },
         // Add more elements as needed...
       ],
@@ -189,11 +189,11 @@ const optionData = [
           name: "Element 2 Name",
           description: "Element 2 Description",
         },
-        {
+         {
           imageUrl: "https://dummyimage.com/601x361",
-          subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
-          description: "Element 2 Description",
+          subtitle: "Element 3 Subtitle",
+          name: "Element 3 Name",
+          description: "Element 3 Description",
         },
         // Add more elements as needed...
       ],
@@ -215,9 +215,9 @@ const optionData = [
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
-          subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
-          description: "Element 2 Description",
+          subtitle: "Element 3 Subtitle",
+          name: "Element 3 Name",
+          description: "Element 3 Description",
         },
         // Add more elements as needed...
       ],
