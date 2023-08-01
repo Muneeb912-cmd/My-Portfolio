@@ -1,4 +1,4 @@
-// Sliding the menu open and close
+// Sliding the menu open and closed
 document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.querySelector('.toggle-btn');
     const sideMenu = document.querySelector('.side-menu');
