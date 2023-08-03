@@ -1,435 +1,646 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="./Screens/Home.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="icon" type="image/x-icon" href="./Assets/profile.png">
-    </head>
-    <body>
-        <div style="display: flex;">
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./Screens/Home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="./Assets/profile.png">
+  </head>
+  <body>
+    <div style="display: flex;">
 
-            <div class="side-menu ">
-                <div class="menu-close">
-                    <button class="close-btn">&#10005;</button>
+      <div class="side-menu ">
+        <div class="menu-close">
+          <button class="close-btn">&#10005;</button>
+        </div>
+        <div class="profile">
+          <img src="./Assets/Pic1.jpg" alt="Profile Photo">
+        </div>
+        <h2 style="margin-top: 15px;" class="name">Eman Muneeb</h2>
+        <div class="divider"></div>
+        <ul class="menu-items">
+          <li><a href="#home"><span class="option-logo"></span>
+              Home</a></li>
+          <li><a href="#resume"><span class="option-logo"></span>
+              Resume</a></li>
+          <li><a href="#technologies"><span class="option-logo"></span>
+              Technologies</a></li>
+          <li><a href="#portfolio"><span class="option-logo"></span>
+              Portfolio</a></li>
+          <li><a href="#photography"><span class="option-logo"></span>
+              Photography</a></li>
+          <li><a href="#contact"><span class="option-logo"></span>
+              Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/skittleclicks/"><img
+              src="./Assets/instagram.png"
+              alt="Instagram"></a>
+          <a href="https://youtube.com/@CODINGisFUN-xz2em"><img
+              src="./Assets/youtube.png" alt="YouTube"></a>
+          <a href="https://www.linkedin.com/in/eman-muneeb-363440225/"><img
+              src="./Assets/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://github.com/Muneeb912-cmd"><img
+              src="./Assets/github.png" alt="GitHub"></a>
+        </div>
+        <div>
+          <p style="text-align: center; margin-top: 50px;">If you want to make
+            your own portfolio like mine. Right Click or hold on the Option
+            below for Source Code</p>
+          <ul class="menu-items">
+            <li><a href="https://github.com/Muneeb912-cmd/My-Portfolio"><span
+                  class="option-logo"></span>
+                Source Code</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="menu-toggle">
+        <button class="toggle-btn">&#9776;</button>
+      </div>
+
+      <div class="content ">
+        <div id="home">
+          <section class="text-gray-600 body-font">
+            <div
+              class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img class="object-cover object-center rounded" alt="hero"
+                  src="./Assets/Pic1.jpg">
+              </div>
+              <div
+                class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 style="color: white;"
+                  class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">I
+                  Am Eman Muneeb
+                  <br style="color: white;" class="hidden lg:inline-block">
+                </h1>
+                <p style="color: white;" class="mb-8 leading-relaxed">I am a
+                  passionate 21-year-old freelancer, with a keen eye for
+                  capturing captivating moments through the lens of my camera.
+                  As a versatile content creator, I'm not only a dedicated
+                  photographer but also a dynamic YouTuber, sharing my Coding
+                  skills and projects with an ever-growing community. Embracing
+                  the digital realm, I embrace my coding and development skills,
+                  crafting interactive experiences that leave a lasting impact.</p>
+                <p style="color: white;" class="mb-8 leading-relaxed">Traveling
+                  and exploring Pakistan is one of my dreams.</p>
+              </div>
+            </div>
+          </section>
+          <section class="text-gray-600 body-font">
+            <div class="flex flex-wrap -m-4 text-center">
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <div style="display: flex; justify-content: center;">
+                    <img src="./Assets/youtube.png" alt="YouTube" width="80px">
+                  </div>
+                  <h2 class="title-font font-medium text-3xl text-white">8.2K+</h2>
+                  <p class="leading-relaxed text-white">Views</p>
                 </div>
-                <div class="profile">
-                    <img src="./Assets/Pic1.jpg" alt="Profile Photo">
+              </div>
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <div
+                    style="display: flex; justify-content: center; margin-bottom: 10px;">
+                    <img src="./Assets/instagram.png" alt="YouTube" width="70px">
+                  </div>
+                  <h2 class="title-font font-medium text-3xl text-white">1.7K+</h2>
+                  <p class="leading-relaxed text-white">Followers</p>
                 </div>
-                <h2 style="margin-top: 15px;" class="name">Eman Muneeb</h2>
-                <div class="divider"></div>
-                <ul class="menu-items">
-                    <li><a href="#home"><span class="option-logo"></span>
-                            Home</a></li>
-                    <li><a href="#resume"><span class="option-logo"></span>
-                            Resume</a></li>
-                            <li><a href="#technologies"><span class="option-logo"></span>
-                              Technologies</a></li>
-                    <li><a href="#portfolio"><span class="option-logo"></span>
-                            Portfolio</a></li>
-                            <li><a href="#photography"><span class="option-logo"></span>
-                              Photography</a></li>
-                    <li><a href="#contact"><span class="option-logo"></span>
-                            Contact</a></li>
-                </ul>
-                <div class="social-icons">
-                    <a href="https://www.instagram.com/skittleclicks/"><img src="./Assets/instagram.png"
-                            alt="Instagram"></a>
-                    <a href="https://youtube.com/@CODINGisFUN-xz2em"><img src="./Assets/youtube.png" alt="YouTube"></a>
-                    <a href="https://www.linkedin.com/in/eman-muneeb-363440225/"><img src="./Assets/linkedin.png" alt="LinkedIn"></a>
-                    <a href="https://github.com/Muneeb912-cmd"><img src="./Assets/github.png" alt="GitHub"></a>
+              </div>
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <div
+                    style="display: flex; justify-content: center; margin-bottom: 10px;">
+                    <img src="./Assets/github.png" alt="YouTube" width="70px">
+                  </div>
+                  <h2 class="title-font font-medium text-3xl text-white">25+</h2>
+                  <p class="leading-relaxed text-white">Repositories</p>
                 </div>
-                <div>
-                  <p style="text-align: center; margin-top: 50px;">If you want to make your own portfolio like mine. Right Click or hold on the Option below for Source Code</p>
-                  <ul class="menu-items">
-                    <li><a href="https://github.com/Muneeb912-cmd/My-Portfolio"><span class="option-logo"></span>
-                            Source Code</a></li>                  
-                </ul>
+              </div>
+              <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                  <div
+                    style="display: flex; justify-content: center; margin-bottom: 10px;">
+                    <img src="./Assets/linkedin.png" alt="YouTube" width="70px">
+                  </div>
+                  <h2 class="title-font font-medium text-3xl text-white">430+</h2>
+                  <p class="leading-relaxed text-white">Connections</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div style="background-color: black;" class="content">
+      <div id="resume">
+        <section class="text-white bg-black body-font overflow-hidden">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="-my-8 divide-y-2 divide-gray-800">
+              <h1
+                style="color: white; text-align: start; font-size: 30px; font-weight: 600;">Resume</h1>
+              <div class="py-8 flex flex-wrap md:flex-nowrap">
+                <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                  <span class="font-semibold title-font text-white">Education</span>
+                  <span class="mt-1 text-gray-500 text-sm">(June, 2020 - June,
+                    2024 )</span>
+                </div>
+                <div class="md:flex-grow">
+                  <h2 class="text-2xl font-medium text-white title-font mb-2">University
+                    Of Engineering and Technology, Lahore</h2>
+                  <p class="leading-relaxed">I am a student of BS. Computer
+                    Science and just passed my 6th semester</p>
+                  <a href="https://cs.uet.edu.pk/"
+                    class="text-indigo-400 inline-flex items-center mt-4">Computer
+                    Science Department (UET)
+                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                      stroke="currentColor" stroke-width="2" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                  <span class="font-semibold title-font text-white">About Me</span>
+                </div>
+                <div class="md:flex-grow">
+                  <p class="leading-relaxed">I am a quick learner with
+                    problem-solving skills and a natural aptitude for coding. I
+                    have a good hold of programming fundamentals and am
+                    proficient
+                    in languages such as Python, C#, flutter, React and more . I
+                    am also familiar with web development technologies such as
+                    MERN, MEAN stacks and mobile applications development using
+                    technologies such as Flutter. I have also played a role of
+                    team lead several times during term projects. </p>
+                </div>
+              </div>
+              <div
+                class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                  <span class="font-semibold title-font text-white">Career
+                    Objectives</span>
+                </div>
+                <div class="md:flex-grow">
+                  <p class="leading-relaxed">As a programming student with fresh
+                    skills and a passion for technology, I am seeking an
+                    opportunity to work with a dynamic company where I can apply
+                    my skills and gain hands-on experience in the field of
+                    programming. I am eager to work with a team of experienced
+                    professionals, and enhance my abilities in various
+                    programming
+                    languages.</p>
+                </div>
+              </div>
+              <div
+                class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+                <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                  <span class="font-semibold title-font text-white">Experience</span>
+                </div>
+                <div class="md:flex-grow">
+                  <p class="leading-relaxed">As an intern at Apex Space Ltd. I
+                    have gained hands-on-experience about how the industry works
+                    and as an undergraduate I have gained experience by working
+                    on
+                    term projects on different technology stacks. I have also
+                    gained some working experience by doing freelancing.</p>
+                </div>
+              </div>
+              <a href="./Assets/My Resume.pdf" download="My Resume.pdf">
+                <button class="download-resume"
+                  style="color: white; border: 1px solid white; border-radius: 4px; padding: 8px;">Download
+                  Resume</button>
+              </a>
             </div>
 
-            <div class="menu-toggle">
-                <button class="toggle-btn">&#9776;</button>
-            </div>
+          </div>
 
-            <div class="content ">
-               <div id="home">
-                <section class="text-gray-600 body-font">
-                    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <img class="object-cover object-center rounded" alt="hero" src="./Assets/Pic1.jpg">
-                      </div>
-                      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <h1 style="color: white;" class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">I Am Eman Muneeb
-                          <br style="color: white;" class="hidden lg:inline-block">
-                        </h1>                        
-                        <p style="color: white;" class="mb-8 leading-relaxed">I am a passionate 21-year-old freelancer, with a keen eye for capturing captivating moments through the lens of my camera. As a versatile content creator, I'm not only a dedicated photographer but also a dynamic YouTuber, sharing my Coding skills and projects with an ever-growing community. Embracing the digital realm, I embrace my coding and development skills, crafting interactive experiences that leave a lasting impact.</p>
-                        <p style="color: white;" class="mb-8 leading-relaxed">Traveling and exploring Pakistan is one of my dreams.</p>                       
-                      </div>
-                    </div>
-                  </section>
-                  <section class="text-gray-600 body-font">                   
-                      <div class="flex flex-wrap -m-4 text-center">
-                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <div style="display: flex; justify-content: center;">
-                              <img src="./Assets/youtube.png" alt="YouTube"  width="80px">
-                            </div>
-                            <h2 class="title-font font-medium text-3xl text-white">8.2K</h2>
-                            <p class="leading-relaxed text-white">Views</p>
-                          </div>
-                        </div>
-                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <div style="display: flex; justify-content: center; margin-bottom: 10px;">
-                              <img src="./Assets/instagram.png" alt="YouTube"  width="70px">
-                            </div>
-                            <h2 class="title-font font-medium text-3xl text-white">1.7K</h2>
-                            <p class="leading-relaxed text-white">Followers</p>
-                          </div>
-                        </div>
-                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <div style="display: flex; justify-content: center; margin-bottom: 10px;">
-                              <img src="./Assets/github.png" alt="YouTube"  width="70px">
-                            </div>
-                            <h2 class="title-font font-medium text-3xl text-white">20+</h2>
-                            <p class="leading-relaxed text-white">Repositories</p>
-                          </div>
-                        </div>
-                        <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
-                          <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <div style="display: flex; justify-content: center; margin-bottom: 10px;">
-                              <img src="./Assets/linkedin.png" alt="YouTube"  width="70px">
-                            </div>
-                            <h2 class="title-font font-medium text-3xl text-white">427</h2>
-                            <p class="leading-relaxed text-white">Connections</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-               </div>                
+        </section>
+      </div>
+    </div>
+    <div class="content">
+    <div id="technologies">
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div
+              class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+              <h1
+                class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Technologies</h1>
+              <p class="lg:w-1/2 w-full leading-relaxed text-white">Following
+                are the technologies i have worked on and have developed
+                various
+                projects that are categorized and displayed in Portfolio
+                Section</p>
             </div>
-            <div id="resume">              
-                <section class="text-white bg-black body-font overflow-hidden">                  
-                    <div class="container px-5 py-24 mx-auto">                      
-                      <div class="-my-8 divide-y-2 divide-gray-800">
-                        <h1 style="color: white; text-align: start; font-size: 30px; font-weight: 600;">Resume</h1>
-                        <div class="py-8 flex flex-wrap md:flex-nowrap">
-                          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span class="font-semibold title-font text-white">Education</span>
-                            <span class="mt-1 text-gray-500 text-sm">(June, 2020 - June, 2024 )</span>
-                          </div>
-                          <div class="md:flex-grow">
-                            <h2 class="text-2xl font-medium text-white title-font mb-2">University Of Engineering and Technology, Lahore</h2>
-                            <p class="leading-relaxed">I am a student of BS. Computer Science and just passed my 6th semester</p>
-                            <a href="https://cs.uet.edu.pk/" class="text-indigo-400 inline-flex items-center mt-4">Computer Science Department (UET)
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
-                          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span class="font-semibold title-font text-white">About Me</span>                            
-                          </div>
-                          <div class="md:flex-grow">                            
-                            <p class="leading-relaxed">I am a quick learner with problem-solving skills and a natural aptitude for coding. I have a good hold of programming fundamentals and am proficient in languages such as Python, C#, flutter, React and more . I am also familiar with web development technologies such as MERN, MEAN stacks and mobile applications development using technologies such as Flutter. I have also played a role of team lead several times during term projects. </p>                           
-                          </div>
-                        </div>
-                        <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
-                          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span class="font-semibold title-font text-white">Career Objectives</span>                            
-                          </div>
-                          <div class="md:flex-grow">                            
-                            <p class="leading-relaxed">As a programming student with fresh skills and a passion for technology, I am seeking an opportunity to work with a dynamic company where I can apply my skills and gain hands-on experience in the field of programming. I am eager to work with a team of experienced professionals, and enhance my abilities in various programming languages.</p>                           
-                          </div>
-                        </div>
-                        <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
-                          <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                            <span class="font-semibold title-font text-white">Experience</span>                            
-                          </div>
-                          <div class="md:flex-grow">                            
-                            <p class="leading-relaxed">As an intern at Apex Space Ltd. I have gained hands-on-experience about how the industry works and as an undergraduate I have gained experience by working on term projects on different technology stacks. I have also gained some working experience by doing freelancing.</p>                           
-                          </div>
-                        </div>
-                        <a href="./Assets/My Resume.pdf" download="My Resume.pdf">
-                          <button class="download-resume" style="color: white; border: 1px solid white; border-radius: 4px; padding: 8px;">Download Resume</button>
+            <div class="xl:w-1/3 md:w-1/2 p-4 ">
+              <div
+                class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
+                <div
+                  class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-6 h-6"
+                    viewBox="0 0 24 24">
+                    <img src="./Assets/flutter.png" alt="YouTube" width="70px">
+                  </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Flutter</h2>
+                <p class="leading-relaxed text-base text-white">Developed
+                  several mobile applications for several Clients</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div
+                class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
+                <div
+                  class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-6 h-6"
+                    viewBox="0 0 24 24">
+                    <circle cx="6" cy="6" r="3"></circle>
+                    <circle cx="6" cy="18" r="3"></circle>
+                    <img src="./Assets/js.png" alt="YouTube" width="70px">
+                  </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">JavaScript</h2>
+                <p class="leading-relaxed text-base text-white">Developed many
+                  fully functional websites using Java Script</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div
+                class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
+                <div
+                  class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-6 h-6"
+                    viewBox="0 0 24 24">
+                    <img src="./Assets/C_.png" alt="YouTube" width="70px">
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">C#
+                  (.NET)</h2>
+                <p class="leading-relaxed text-base text-white">Developed
+                  Desktop Application and Web Applications using C#</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div
+                class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
+                <div
+                  class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor text-white"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <img src="./Assets/react.png" alt="YouTube" width="70px">
+                  </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">React
+                  JS</h2>
+                <p class="leading-relaxed text-base text-white">Developed
+                  elegant and responsive Frontend for several websites</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div
+                class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
+                <div
+                  class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-6 h-6"
+                    viewBox="0 0 24 24">
+                    <img src="./Assets/node.png" alt="YouTube" width="70px">
+                  </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Node</h2>
+                <p class="leading-relaxed text-base text-white">Developed
+                  several servers to host many different websites </p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div
+                class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
+                <div
+                  class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-6 h-6"
+                    viewBox="0 0 24 24">
+                    <img src="./Assets/python.png" alt="YouTube" width="70px">
+                  </svg>
+                </div>
+                <h2 class="text-lg text-white font-medium title-font mb-2">Python</h2>
+                <p class="leading-relaxed text-base text-white">Written
+                  several
+                  problem solving solutions using python</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div style="background-color: black;" class="content">
+    <div id="portfolio">
+      <section class="text-gray-400  body-font bg-black">
+        <div
+          style="padding: 50px; display: flex; justify-content: center; margin-bottom: -90px;">
+          <h1
+            style="color: white; text-align: start; font-size: 35px; font-weight: 600;">My
+            Portfolio</h1>
+        </div>
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/3">
+              <div
+                class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+                <h1
+                  class="title-font sm:text-2xl text-xl font-medium text-white mb-3">FreeLancing</h1>
+                <p class="leading-relaxed mb-3 text-white">As a freelancer I
+                  have completed and contributed to many different projects
+                  based on various different technology stacks</p>
+                <a href="./Screens/Portfolio%20Screen/options.html?option=1"
+                  class="text-indigo-400 inline-flex items-center hover:text-blue-500">Learn
+                  More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3">
+              <div
+                class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+                <h1
+                  class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Mobile
+                  Application Development</h1>
+                <p class="leading-relaxed mb-3 text-white">As a mobile
+                  application developer I have developed and contributed to many
+                  different mobile application using Flutter</p>
+                <a href="./Screens/Portfolio%20Screen/options.html?option=2"
+                  class="text-indigo-400 inline-flex items-center">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3">
+              <div
+                class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+                <h1
+                  class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Web
+                  Application Development</h1>
+                <p class="leading-relaxed mb-3 text-white">I have Developed
+                  various web projects, I have worked on different technologies
+                  stacks that are used for developing Web-Sites such as MEAN,
+                  MERN, HTML,JS,CSS and .NET(MVC)</p>
+                <a href="./Screens/Portfolio%20Screen/options.html?option=3"
+                  class="text-indigo-400 inline-flex items-center">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3">
+              <div
+                class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+                <h1
+                  class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Desktop
+                  Application Development</h1>
+                <p class="leading-relaxed mb-3 text-white">I have developed many
+                  desktop application using JAVA, .NET and PYQT5. The most
+                  prominent project that i worked on was a School Management
+                  System For a Client.</p>
+                <a href="./Screens/Portfolio%20Screen/options.html?option=4"
+                  class="text-indigo-400 inline-flex items-center">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/3">
+              <div
+                class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+                <h1
+                  class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Photography
+                  & Editing <h1>
+                    <p class="leading-relaxed mb-3 text-white">Photography has
+                      always been my passion and a side hobby so I travel
+                      around, click some snaps, edit them using Adobe Photoshop
+                      and post on my social media</p>
+                    <a href="./Screens/Portfolio%20Screen/options.html?option=5"
+                      class="text-indigo-400 inline-flex items-center">Learn
+                      More
+                      <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-4 lg:w-1/3">
+                  <div
+                    class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">
+                    <h1
+                      class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Others<h1>
+                        <p class="leading-relaxed mb-3 text-white">I worked on
+                          different projects other then coding and photography,
+                          and gained some really valuable experiences like
+                          working on Latex, writing professional document and
+                          more.</p>
+                        <a
+                          href="./Screens/Portfolio%20Screen/options.html?option=6"
+                          class="text-indigo-400 inline-flex items-center">Learn
+                          More
+                          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
                         </a>
                       </div>
-                      
                     </div>
-                    
-                  </section>                  
-            </div>
-            <div id="technologies">
-              <section class="text-gray-600 body-font">
-                <div class="container px-5 py-24 mx-auto">                 
-                  <div class="flex flex-wrap -m-4">
-                    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-                      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Technologies</h1>
-                      <p class="lg:w-1/2 w-full leading-relaxed text-white">Following are the technologies i have worked on and have developed various projects that are categorized and displayed in Portfolio Section</p>
-                    </div>
-                    <div class="xl:w-1/3 md:w-1/2 p-4 ">
-                      <div class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
-                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
-                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <img src="./Assets/flutter.png" alt="YouTube"  width="70px">
-                          </svg>
-                        </div>
-                        <h2 class="text-lg text-white font-medium title-font mb-2">Flutter</h2>
-                        <p class="leading-relaxed text-base text-white">Developed several mobile applications for several Clients</p>
-                      </div>
-                    </div>
-                    <div class="xl:w-1/3 md:w-1/2 p-4">
-                      <div class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
-                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
-                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <circle cx="6" cy="6" r="3"></circle>
-                            <circle cx="6" cy="18" r="3"></circle>
-                            <img src="./Assets/js.png" alt="YouTube"  width="70px">
-                          </svg>
-                        </div>
-                        <h2 class="text-lg text-white font-medium title-font mb-2">JavaScript</h2>
-                        <p class="leading-relaxed text-base text-white">Developed many fully functional websites using Java Script</p>
-                      </div>
-                    </div>
-                    <div class="xl:w-1/3 md:w-1/2 p-4">
-                      <div class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
-                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
-                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <img src="./Assets/C_.png" alt="YouTube"  width="70px">
-                            <circle cx="12" cy="7" r="4"></circle>
-                          </svg>
-                        </div>
-                        <h2 class="text-lg text-white font-medium title-font mb-2">C# (.NET)</h2>
-                        <p class="leading-relaxed text-base text-white">Developed Desktop Application and Web Applications using C#</p>
-                      </div>
-                    </div>
-                    <div class="xl:w-1/3 md:w-1/2 p-4">
-                      <div class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
-                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
-                          <svg fill="none" stroke="currentColor text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <img src="./Assets/react.png" alt="YouTube"  width="70px">
-                          </svg>
-                        </div>
-                        <h2 class="text-lg text-white font-medium title-font mb-2">React JS</h2>
-                        <p class="leading-relaxed text-base text-white">Developed elegant and responsive Frontend for several websites</p>
-                      </div>
-                    </div>
-                    <div class="xl:w-1/3 md:w-1/2 p-4">
-                      <div class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
-                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
-                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <img src="./Assets/node.png" alt="YouTube"  width="70px">
-                          </svg>
-                        </div>
-                        <h2 class="text-lg text-white font-medium title-font mb-2">Node</h2>
-                        <p class="leading-relaxed text-base text-white">Developed several servers to host many different websites </p>
-                      </div>
-                    </div>
-                    <div class="xl:w-1/3 md:w-1/2 p-4">
-                      <div class="border border-gray-200 p-6 rounded-lg bg-white bg-opacity-20">
-                        <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-500 text-indigo-500 mb-4">
-                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-                            <img src="./Assets/python.png" alt="YouTube"  width="70px">
-                          </svg>
-                        </div>
-                        <h2 class="text-lg text-white font-medium title-font mb-2">Python</h2>
-                        <p class="leading-relaxed text-base text-white">Written several problem solving solutions using python</p>
-                      </div>
-                    </div>
-                  </div>                  
+                  </div>
                 </div>
               </section>
             </div>
-            <div id="portfolio">              
-                <section class="text-gray-400  body-font bg-black">                  
-                  <div style="padding: 50px; display: flex; justify-content: center; margin-bottom: -90px;">
-                    <h1 style="color: white; text-align: start; font-size: 35px; font-weight: 600;">My Portfolio</h1>
-                  </div>
-                    <div class="container px-5 py-24 mx-auto">                      
-                      <div class="flex flex-wrap -m-4">                        
-                        <div class="p-4 lg:w-1/3">
-                          <div class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">                            
-                            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">FreeLancing</h1>
-                            <p class="leading-relaxed mb-3 text-white">As a freelancer I have completed and contributed to many different projects based on various different technology stacks</p>                                       
-                            <a href="./Screens/Portfolio%20Screen/options.html?option=1" class="text-indigo-400 inline-flex items-center hover:text-blue-500">Learn More
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>    
-                          </div>
-                        </div>
-                        <div class="p-4 lg:w-1/3">
-                          <div class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">                            
-                            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Mobile Application Development</h1>
-                            <p class="leading-relaxed mb-3 text-white">As a mobile application developer I have developed and contributed to many different mobile application using Flutter</p>
-                            <a href="./Screens/Portfolio%20Screen/options.html?option=2" class="text-indigo-400 inline-flex items-center">Learn More
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>                          
-                          </div>
-                        </div>
-                        <div class="p-4 lg:w-1/3">
-                          <div class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">                            
-                            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Web Application Development</h1>
-                            <p class="leading-relaxed mb-3 text-white">I have Developed various web projects, I have worked on different technologies stacks that are used for developing Web-Sites such as MEAN, MERN, HTML,JS,CSS and .NET(MVC)</p>
-                            <a href="./Screens/Portfolio%20Screen/options.html?option=3" class="text-indigo-400 inline-flex items-center">Learn More
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>                          
-                          </div>
-                        </div>
-                        <div class="p-4 lg:w-1/3">
-                          <div class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">                            
-                            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Desktop Application Development</h1>
-                            <p class="leading-relaxed mb-3 text-white">I have developed many desktop application using JAVA, .NET and PYQT5. The most prominent project that i worked on was a School Management System For a Client.</p>
-                            <a href="./Screens/Portfolio%20Screen/options.html?option=4" class="text-indigo-400 inline-flex items-center">Learn More
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>                          
-                          </div>
-                        </div>
-                        <div class="p-4 lg:w-1/3">
-                          <div class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">                            
-                            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Photography & Editing <h1>
-                            <p class="leading-relaxed mb-3 text-white">Photography has always been my passion and a side hobby so I travel around, click some snaps, edit them using Adobe Photoshop and post on my social media</p>
-                            <a href="./Screens/Portfolio%20Screen/options.html?option=5" class="text-indigo-400 inline-flex items-center">Learn More
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>                          
-                          </div>
-                        </div>
-                        <div class="p-4 lg:w-1/3">
-                          <div class="border border-gray-200 p-6 rounded-lg h-full bg-white bg-opacity-40 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center ">                            
-                            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">Others<h1>
-                            <p class="leading-relaxed mb-3 text-white">I worked on different projects other then coding and photography, and gained some really valuable experiences like working on Latex, writing professional document and more.</p>
-                            <a href="./Screens/Portfolio%20Screen/options.html?option=6" class="text-indigo-400 inline-flex items-center">Learn More
-                              <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M5 12h14"></path>
-                                <path d="M12 5l7 7-7 7"></path>
-                              </svg>
-                            </a>                          
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
-            </div>
+          </div>
+          <div class="content">
             <div id="photography">
               <section class="text-gray-600  body-font">
                 <div class="container px-5 py-20 mx-auto flex flex-wrap">
-                  <div  class="flex w-full mb-20 flex-wrap ">
-                    <h1  class="sm:text-3xl text-2xl font-large title-font text-white lg:w-1/3 lg:mb-0 mb-4">Photography</h1>                    
+                  <div class="flex w-full mb-20 flex-wrap ">
+                    <h1
+                      class="sm:text-3xl text-2xl font-large title-font text-white lg:w-1/3 lg:mb-0 mb-4">Photography</h1>
                   </div>
                   <div class="flex flex-wrap md:-m-10 -m-5">
                     <div class="flex flex-wrap w-1/2">
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic2.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic2.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic3.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic3.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="./Assets/Pic4.jpg">
+                        <img alt="gallery"
+                          class="w-full h-full object-cover object-center block"
+                          src="./Assets/Pic4.jpg">
                       </div>
                     </div>
                     <div class="flex flex-wrap w-1/2">
                       <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="./Assets/Pic5.jpg">
+                        <img alt="gallery"
+                          class="w-full h-full object-cover object-center block"
+                          src="./Assets/Pic5.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic6.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic6.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic7.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic7.jpg">
                       </div>
                     </div>
                     <div class="flex flex-wrap w-1/2">
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic8.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic8.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic9.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic9.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="./Assets/Pic10.jpg">
+                        <img alt="gallery"
+                          class="w-full h-full object-cover object-center block"
+                          src="./Assets/Pic10.jpg">
                       </div>
                     </div>
                     <div class="flex flex-wrap w-1/2">
                       <div class="md:p-2 p-1 w-full">
-                        <img alt="gallery" class="w-full h-full object-cover object-center block" src="./Assets/Pic11.jpg">
+                        <img alt="gallery"
+                          class="w-full h-full object-cover object-center block"
+                          src="./Assets/Pic11.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic12.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic12.jpg">
                       </div>
                       <div class="md:p-2 p-1 w-1/2">
-                        <img alt="gallery" class="w-full object-cover h-full object-center block" src="./Assets/Pic13.jpg">
+                        <img alt="gallery"
+                          class="w-full object-cover h-full object-center block"
+                          src="./Assets/Pic13.jpg">
                       </div>
                     </div>
                   </div>
                 </div>
               </section>
             </div>
+          </div>
             <div id="contact">
-                <section class="text-gray-400 bg-black  body-font">
-                    <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">                      
-                      <div style="pointer-events: none" class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">                                                
-                        <iframe  width="100%" height="100%" title="map" class="absolute inset-0" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="./Assets/BG.jpg" style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>                        <div class="bg-gray-900  flex flex-wrap py-6 rounded shadow-md">
-                          <div class="lg:w-1/2 px-6"> 
-                          </div>
-                          <div class="lg:w-1/2 px-6">
-                            <h2 class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
-                            <p class="mt-1">University of Engineering and Technology, Lahore, Pakistan</p>
-                          </div>
-                          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                            <h2 class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
-                            <a class="text-indigo-400 leading-relaxed">emanmuneeb1@gamail.com</a>
-                            <h2 class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
-                            <p class="leading-relaxed">+92 32501214340</p>
-                          </div>
-                        </div>
+              <section class="text-gray-400 bg-black  body-font">
+                <div
+                  class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+                  <div style="pointer-events: none"
+                    class="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-center justify-start relative">                    
+                    <iframe width="100%" height="100%" title="map"
+                      class="absolute inset-0" frameborder="0" marginheight="0"
+                      marginwidth="0" scrolling="no" src="./Assets/BG.jpg"
+                      style="filter: grayscale(1) contrast(1.2) opacity(0.16);"></iframe>
+                    <div
+                      class="bg-gray-900  flex flex-wrap py-6 rounded shadow-md">
+                      <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2
+                          class="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+                        <p class="mt-1">University of Engineering and
+                          Technology, Lahore, Pakistan</p>
                       </div>
-                      
-                      <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-                        <form action="https://formspree.io/f/mgejvpdz" method="POST">
-                        <h2 style="font-size: 30px; font-weight: 600; color:white;">Contact Me</h2>                       
-                        <div class=" mb-4">
-                          <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
-                          <input type="text" id="name" name="name" class="w-full  rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                        </div>
-                        <div class=" mb-4">
-                          <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
-                          <input type="email" id="email" name="email" class="w-full  rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                        </div>
-                        <div class=" mb-4">
-                          <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
-                          <textarea id="message" name="message" class="w-full  rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                        </div>
-                        <button type="submit" class="text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-500 rounded text-lg">Send</button>
-                        <p class="text-xs text-gray-400 text-opacity-90 mt-3"></p>
-                      </form>
-                      </div>                   
+                      <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2
+                          class="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
+                        <a class="text-indigo-400 leading-relaxed">emanmuneeb1@gamail.com</a>
+                        <h2
+                          class="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
+                        <p class="leading-relaxed">+92 32501214340</p>
+                      </div>
                     </div>
-                  </section>
+                  </div>
+
+                  <div
+                    class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                    <form action="https://formspree.io/f/mgejvpdz" method="POST">
+                      <h2
+                        style="font-size: 30px; font-weight: 600; color:white;">Contact
+                        Me</h2>
+                      <div class=" mb-4">
+                        <label for="name"
+                          class="leading-7 text-sm text-gray-400">Name</label>
+                        <input type="text" id="name" name="name"
+                          class="w-full  rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                      </div>
+                      <div class=" mb-4">
+                        <label for="email"
+                          class="leading-7 text-sm text-gray-400">Email</label>
+                        <input type="email" id="email" name="email"
+                          class="w-full  rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                      </div>
+                      <div class=" mb-4">
+                        <label for="message"
+                          class="leading-7 text-sm text-gray-400">Message</label>
+                        <textarea id="message" name="message"
+                          class="w-full  rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-black py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                      </div>
+                      <button type="submit"
+                        class="text-black bg-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-500 rounded text-lg">Send</button>
+                      <p class="text-xs text-gray-400 text-opacity-90 mt-3"></p>
+                    </form>
+                  </div>
+                </div>
+              </section>
             </div>
-        </div>
-        <button class="scroll-up-btn" title="Scroll to top">&#8593;</button>
-        <script src="./APIs/Scroll.js"></script>        
-    </body>
-</html>
+          </div>
+          <button class="scroll-up-btn" title="Scroll to top">&#8593;</button>
+          <script src="./APIs/Scroll.js"></script>
+        </body>
+      </html>

@@ -77,24 +77,24 @@ document.addEventListener("DOMContentLoaded", function () {
 const optionData = [
     {
       title: "FreeLancing",
-      content: "FreeLancing",
+      content: "FreeLancing for various clients over the world, This category also includes the projects other then the coding ones",
       elements: [
         {
           imageUrl: "https://dummyimage.com/600x360",
           subtitle: "Element 1 Subtitle",
-          name: "Element 1 Name",
+          name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
+          name: "Comming Soon!",
           description: "Element 2 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 3 Subtitle",
-          name: "Element 3 Name",
+          name: "Comming Soon!",
           description: "Element 3 Description",
         },
         // Add more elements as needed...
@@ -102,24 +102,24 @@ const optionData = [
     },
     {
       title: "Mobile Application Development",
-      content: "This is the content of Option 2.",
+      content: "Mobile Application Development using Flutter",
       elements: [
         {
           imageUrl: "https://dummyimage.com/600x360",
           subtitle: "Element 1 Subtitle",
-          name: "Element 1 Name",
+          name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
+          name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 3 Subtitle",
-          name: "Element 3 Name",
+          name: "Comming Soon!",
           description: "Element 3 Description",
         },
         // Add more elements as needed...
@@ -127,24 +127,24 @@ const optionData = [
     },
     {
       title: "Web Application Development",
-      content: "This is the content of Option 3.",
+      content: "Web Development using different technologies stacks",
       elements: [
         {
           imageUrl: "https://dummyimage.com/600x360",
           subtitle: "Element 1 Subtitle",
-          name: "Element 1 Name",
+          name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
+          name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 3 Subtitle",
-          name: "Element 3 Name",
+          name: "Comming Soon!",
           description: "Element 3 Description",
         },
         // Add more elements as needed...
@@ -156,19 +156,19 @@ const optionData = [
         {
           imageUrl: "https://dummyimage.com/600x360",
           subtitle: "Element 1 Subtitle",
-          name: "Element 1 Name",
+          name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
+          name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 3 Subtitle",
-          name: "Element 3 Name",
+          name: "Comming Soon!",
           description: "Element 3 Description",
         },
         // Add more elements as needed...
@@ -180,19 +180,19 @@ const optionData = [
         {
           imageUrl: "https://dummyimage.com/600x360",
           subtitle: "Element 1 Subtitle",
-          name: "Element 1 Name",
+          name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
+          name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 3 Subtitle",
-          name: "Element 3 Name",
+          name: "Comming Soon!",
           description: "Element 3 Description",
         },
         // Add more elements as needed...
@@ -204,19 +204,19 @@ const optionData = [
         {
           imageUrl: "https://dummyimage.com/600x360",
           subtitle: "Element 1 Subtitle",
-          name: "Element 1 Name",
+          name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 2 Subtitle",
-          name: "Element 2 Name",
+          name: "Comming Soon!",
           description: "Element 2 Description",
         },
         {
           imageUrl: "https://dummyimage.com/601x361",
           subtitle: "Element 3 Subtitle",
-          name: "Element 3 Name",
+          name: "Comming Soon!",
           description: "Element 3 Description",
         },
         // Add more elements as needed...
@@ -246,11 +246,14 @@ const optionData = [
   
               if (selectedOptionData) {
                   optionContentContainer.innerHTML = `
-                      <section class="text-gray-600 body-font">
-                          <div class="container px-5 py-24 mx-auto">
+                      <section class="text-black body-font">
+                          <div class="container px-5 py-20 mx-auto">
                               <div class="flex flex-col text-center w-full mb-20">
-                                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Coming Soon!</h1>
-                                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here are some of the prominent projects that I have developed in ${selectedOptionData.content}.</p>
+                                  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">${selectedOptionData.title}</h1>
+                                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Here are some of the prominent projects that I have developed in ${selectedOptionData.content}, for details hover over the Image or tap on the Image.</p>
+                                  <br>
+                                  <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Note : Some of the Source Codes are Paid!</p>
+                                  <br>
                                   <p><a class="text-indigo-600 hover:text-indigo-300" href="/index.html#contact">Contact Me</a> For the Source Code</p>
                               </div>
                               <div class="flex flex-wrap -m-4">

@@ -1,214 +1,245 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
     url("../Assets/BG.jpg");
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
-    }
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  
-  .container {
-    display: flex;
-  }
-  
-  .side-menu {
-    
-    width: 250px;
-    height: 100vh;
-    background-color: #202020;
-    color: #fff;
-    padding: 20px;
-    transition: transform 0.5s ease;
-    transform: translateX(-300px);
-    overflow-y: auto; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000; 
-  }
-  
-  .side-menu.open {
-    transform: translateX(0);
-    background-color: rgba(0, 0, 0, 0.842); /* Add an overlay with 60% opacity */
-    z-index: 999; /* Make sure it appears above the content */
-   
-  }
-
-  .profile {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    border: 3px solid #fff;
-  }
-  
-  .profile img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
-  
-  .name {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .menu-items {
-    list-style-type: none;
-    padding: 10px;
-    margin: 0;
-  }
-  
-  .menu-items li {
-    margin-bottom: 10px;
-    /* Add hover effect */
-    transition: background-color 0.3s ease;
-  }
-  
-  .menu-items li a {
-    margin-top: 10px;
-    margin-left: 20px;
-    padding: 10px;
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    position: relative;
-    padding-left: 30px;
-  }
-  
-  .menu-items li a .option-logo {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    padding: 5px;
-    line-height: 1;
-  }
-  
-  /* Apply hover effect */
-  .menu-items li a:hover {
-   color: #444;
-    border-radius: 4px;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
 }
-  
-  .social-icons a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #ffffffcb;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  
-  .social-icons a:hover {
-    background-color: #444; 
+  100% {
+    opacity: 1;
   }
-  
-  .social-icons img {
-    width: 70%; 
-    height: 70%;
-    object-fit: cover;
-  }
-  
-  .menu-toggle {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-  }
-  
-  .toggle-btn {
-    background-color:#fffbfb7a;
-    color: #fff;
-    font-size: 24px;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  .menu-close {
-    text-align: right;
-  }
-  
-  .close-btn {
-    background-color: transparent;
-    color: #fff;
-    font-size: 24px;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .divider{
-    margin-top: 15px;
-    border: 1px solid white;    
-  }
+}
+
+.container {
+  display: flex;
+}
+
+.side-menu {
+  width: 250px;
+  height: 100vh;
+  background-color: #202020;
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.5s ease;
+  transform: translateX(-300px);
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.side-menu.open {
+  transform: translateX(0);
+  background-color: rgba(0, 0, 0, 0.842); /* Add an overlay with 60% opacity */
+  z-index: 999; /* Make sure it appears above the content */
+}
+
+.profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.menu-items li {
+  margin-bottom: 10px;
+  /* Add hover effect */
+  transition: background-color 0.3s ease;
+}
+
+.menu-items li a {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+}
+
+.menu-items li a .option-logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  line-height: 1;
+}
+
+/* Apply hover effect */
+.menu-items li a:hover {
+  color: #444;
+  border-radius: 4px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffffcb;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #444;
+}
+
+.social-icons img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.toggle-btn {
+  background-color: #fffbfb7a;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.menu-close {
+  text-align: right;
+}
+
+.close-btn {
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.divider {
+  margin-top: 15px;
+  border: 1px solid white;
+}
 
 .scroll-up-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    width: 40px;
-    height: 40px;
-    background-color: #fffbfb7a;
-    color: #fff;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 4px rgba(248, 248, 248, 0.199);
-  }
-  
-  .side-menu.open {
-    transform: translateX(0);
-  }
-  
-  .content {
-    justify-content: center;
-    align-items: center;
-    
-    width: 100%;
-    flex: 1;
-    padding: 20px;
-    transition: margin-left 0.3s ease;
-    /* Add some styles to cover the full height of the screen */
-    height: 100vh;
-    min-height: calc(100vh - 40px); /* Substract any extra padding from the container */
-    overflow-y: auto; /* Add scrolling for the content if needed */
-  }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fffbfb7a;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(248, 248, 248, 0.199);
+}
 
-  .download-resume:hover{
-    background-color: #ffffff81;
-  }
+.side-menu.open {
+  transform: translateX(0);
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+  /* Add some styles to cover the full height of the screen */
+  height: 100vh;
+  min-height: calc(
+    100vh 
+  ); /* Substract any extra padding from the container */
+  overflow-y: auto; /* Add scrolling for the content if needed */
+}
+
+.download-resume:hover {
+  background-color: #ffffff81;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set the color of the scrollbar thumb */
+  border-radius: 3px; /* Round the edges of the scrollbar thumb */
+}
+
+/* Optional: Change the scrollbar thumb color when hovering */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Optional: Hide the scrollbar track when not hovering over it */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Optional: Change the scrollbar corner background color */
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
+/* Optional: Style the scrollbar on the Y-axis in the specific element with class "custom-scrollbar" */
+.custom-scrollbar {
+  overflow-y: scroll; /* Enable vertical scrollbar */
+  /* Set height, max-height, or other dimensions for the element */
+  /* Add any other styles specific to the element here */
+}
