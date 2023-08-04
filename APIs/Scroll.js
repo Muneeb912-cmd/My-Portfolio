@@ -255,7 +255,7 @@ const optionData = [
                                   <br>
                                   <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Note : Some of the Source Codes are Paid!</p>
                                   <br>
-                                  <p><a class="text-indigo-600 hover:text-indigo-300" href="/index.html#contact">Contact Me</a> For the Source Code</p>
+                                  <p><a class="text-indigo-600 hover:text-indigo-300" href="/My-Portfolio/index.html#contact">Contact Me</a> For the Source Code</p>
                               </div>
                               <div class="flex flex-wrap -m-4">
                                   ${selectedOptionData.elements.map((element, index) => `
