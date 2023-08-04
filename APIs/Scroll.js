@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const targetSection = document.getElementById(targetSectionId);
             const targetOffset = targetSection.getBoundingClientRect().top;
             const currentOffset = window.pageYOffset;
-            const scrollOffset = targetOffset + currentOffset;
+            const scrollOffset = targetOffset + currentOffset-20;
 
             sideMenu.classList.remove("open");
             menuToggleBtn.style.display = "block";
@@ -73,26 +73,26 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });   
 });
-
+const img1 = '/Assets/Coding.gif';
 const optionData = [
     {
       title: "FreeLancing",
       content: "FreeLancing for various clients over the world, This category also includes the projects other then the coding ones",
       elements: [
         {
-          imageUrl: "https://dummyimage.com/600x360",
+          imageUrl: img1,
           subtitle: "Element 1 Subtitle",
           name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 2 Subtitle",
           name: "Comming Soon!",
           description: "Element 2 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 3 Subtitle",
           name: "Comming Soon!",
           description: "Element 3 Description",
@@ -105,19 +105,19 @@ const optionData = [
       content: "Mobile Application Development using Flutter",
       elements: [
         {
-          imageUrl: "https://dummyimage.com/600x360",
+          imageUrl: img1,
           subtitle: "Element 1 Subtitle",
           name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 2 Subtitle",
           name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 3 Subtitle",
           name: "Comming Soon!",
           description: "Element 3 Description",
@@ -130,19 +130,19 @@ const optionData = [
       content: "Web Development using different technologies stacks",
       elements: [
         {
-          imageUrl: "https://dummyimage.com/600x360",
+          imageUrl: img1,
           subtitle: "Element 1 Subtitle",
           name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 2 Subtitle",
           name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 3 Subtitle",
           name: "Comming Soon!",
           description: "Element 3 Description",
@@ -154,19 +154,19 @@ const optionData = [
       content: "This is the content of Option 4.",
       elements: [
         {
-          imageUrl: "https://dummyimage.com/600x360",
+          imageUrl: img1,
           subtitle: "Element 1 Subtitle",
           name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 2 Subtitle",
           name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 3 Subtitle",
           name: "Comming Soon!",
           description: "Element 3 Description",
@@ -178,19 +178,19 @@ const optionData = [
       content: "This is the content of Option 5.",
       elements: [
         {
-          imageUrl: "https://dummyimage.com/600x360",
+          imageUrl: img1,
           subtitle: "Element 1 Subtitle",
           name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 2 Subtitle",
           name: "Comming Soon!",
           description: "Element 2 Description",
         },
          {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 3 Subtitle",
           name: "Comming Soon!",
           description: "Element 3 Description",
@@ -202,19 +202,19 @@ const optionData = [
       content: "This is the content of Option 6.",
       elements: [
         {
-          imageUrl: "https://dummyimage.com/600x360",
+          imageUrl: img1,
           subtitle: "Element 1 Subtitle",
           name: "Comming Soon!",
           description: "Element 1 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 2 Subtitle",
           name: "Comming Soon!",
           description: "Element 2 Description",
         },
         {
-          imageUrl: "https://dummyimage.com/601x361",
+          imageUrl: img1,
           subtitle: "Element 3 Subtitle",
           name: "Comming Soon!",
           description: "Element 3 Description",
@@ -224,6 +224,7 @@ const optionData = [
     },
   ];
   
+
   
       // Function to get the query parameter from the URL
       function getQueryParam(param) {
@@ -260,7 +261,7 @@ const optionData = [
                                   ${selectedOptionData.elements.map((element, index) => `
                                       <div class="lg:w-1/3 sm:w-1/2 p-4" key="${index}">
                                           <div class="flex relative">
-                                              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="${element.imageUrl}">
+                                              <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src=${element.imageUrl}>
                                               <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-black opacity-0 hover:opacity-100">
                                                   <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">${element.subtitle}</h2>
                                                   <h1 class="title-font text-lg font-medium text-white mb-3">${element.name}</h1>

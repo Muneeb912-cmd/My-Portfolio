@@ -56,6 +56,17 @@ body {
   height: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 480px) {
+  .profile {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+  }
+}
 
 .name {
   text-align: center;
@@ -242,4 +253,20 @@ body {
   overflow-y: scroll; /* Enable vertical scrollbar */
   /* Set height, max-height, or other dimensions for the element */
   /* Add any other styles specific to the element here */
+}
+
+.container-portfolio{
+  background-color: rgba(253, 253, 253, 0.281);
+  border: 1px solid rgba(255, 255, 255, 0.658);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.protfolio-heading{
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: -50px;
 }
