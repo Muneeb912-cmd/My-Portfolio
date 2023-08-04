@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });   
 });
-const img1 = '/Assets/Coding.gif';
+const img1 = '/My-Portfolio/Assets/Coding.gif';
 const optionData = [
     {
       title: "FreeLancing",
